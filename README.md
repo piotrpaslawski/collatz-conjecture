@@ -8,14 +8,14 @@ A command-line tool for exploring the **Collatz conjecture** - one of the most f
 
 Take any positive integer $n$ and apply the following rule repeatedly:
 
-$$f(n) = \begin{cases} \dfrac{n}{2} & \text{if } n \text{ is even} \\[6pt] 3n + 1 & \text{if } n \text{ is odd} \end{cases}$$
+$$f(n) = \begin{cases} \dfrac{n}{2} & \text{if } n \text{ is even} \\ 3n + 1 & \text{if } n \text{ is odd} \end{cases}$$
 
 The conjecture states that **no matter what positive integer you start with, you will always eventually reach 1**.
 
 For example, starting from **6**:
 
 ```
-6 → 3 → 10 → 5 → 16 → 8 → 4 → 2 → 1
+6 -> 3 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
 ```
 
 That is 8 steps. Nobody has found a counterexample, and nobody has proven it always works - hence the mystery.
