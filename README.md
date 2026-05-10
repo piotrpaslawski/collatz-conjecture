@@ -8,7 +8,12 @@ A command-line tool for exploring the **Collatz conjecture** - one of the most f
 
 Take any positive integer $n$ and apply the following rule repeatedly:
 
-$$f(n) = \begin{cases} \dfrac{n}{2} & \text{if } n \text{ is even} \\ 3n + 1 & \text{if } n \text{ is odd} \end{cases}$$
+$$
+f(n) = \begin{cases}
+\dfrac{n}{2} & \text{if } n \text{ is even} \\\\
+3n + 1 & \text{if } n \text{ is odd}
+\end{cases}
+$$
 
 The conjecture states that **no matter what positive integer you start with, you will always eventually reach 1**.
 
